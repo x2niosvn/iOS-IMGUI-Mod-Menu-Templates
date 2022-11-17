@@ -1,0 +1,8 @@
+Package: com.modmenu.x2nios
+Name: IMGUI MOD MENU
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: IMGUI MOD MENU
+Maintainer:  <x2niosvn@gmail.com>
+Author:  X2NIOS
