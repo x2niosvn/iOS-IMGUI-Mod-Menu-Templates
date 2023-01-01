@@ -162,7 +162,7 @@ static bool MenDeal = true;
 
     
     
-        //NemOS🇻🇳
+        
         if (MenDeal == true) {
             [self.view setUserInteractionEnabled:YES];
         } else if (MenDeal == false) {
