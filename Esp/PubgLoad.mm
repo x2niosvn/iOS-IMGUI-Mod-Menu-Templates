@@ -34,26 +34,12 @@ UIWindow *mainWindow;
             [extraInfo tapIconView];
             [extraInfo initTapGes2];
             [extraInfo tapIconView2];
-            [self nemos];
+
           
         });
         
     }
-+(void)nemos{    
-UILabel *myLabel = [[UILabel alloc] initWithFrame:CGRectMake (300, 20, 300, 31)];
-myLabel.textColor = [UIColor greenColor];
-myLabel.font = [UIFont fontWithName:@"papyrus" size:13.0];
-myLabel.numberOfLines = 0;
-myLabel.text = @"info-thenamk3.xyz";
-myLabel.textAlignment = NSTextAlignmentCenter;
-myLabel.shadowColor = [UIColor blackColor];
-myLabel.shadowOffset = CGSizeMake(1.0,1.0); 
 
-
-[mainWindow addSubview:myLabel];
-  [[[[UIApplication sharedApplication] windows]lastObject] addSubview:myLabel];
-        
-}
 -(void)initTapGes
 {
     
